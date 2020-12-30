@@ -1,0 +1,50 @@
+body{
+    background: #f0eef0;
+}
+
+.box-one{
+    width: 300px;
+    background: white;
+    margin: 10px 5px 20px 20px;
+    border-left: 2px solid red;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 4px gray;
+    transition: transform 1s;
+}
+
+.box-one:hover{
+    transform: scale(1.1,1.1);
+}
+
+.box-two{
+    width: 300px;
+    background: white;
+    margin: 10px 5px 20px 20px;
+    border-left: 2px solid green;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 4px gray;
+    transition:  1s
+}
+
+.box-two:hover{
+    box-shadow: 1px 1px 6px black;
+}
+
+.box-three{
+    width: 300px;
+    background: white;
+    margin: 10px 5px 20px 20px;
+    border-left: 2px solid blue;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 4px gray;
+}
+
+.box-three:hover{
+    background: #edefff;
+}
